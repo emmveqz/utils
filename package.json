@@ -1,0 +1,24 @@
+{
+  "name": "@emmveqz/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/utils.js",
+  "author": "Emmanuel Velazquez Lopez",
+  "license": "ISC",
+  "scripts": {
+  },
+  "homepage": "https://github.com/emmveqz/utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emmveqz/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emmveqz/utils/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/emmveqz"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
