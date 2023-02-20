@@ -2,10 +2,13 @@
   "name": "@emmveqz/utils",
   "version": "1.0.0",
   "description": "",
-  "main": "src/utils.js",
+  "main": "dist/utils.js",
+  "types": "dist/utils.d.ts",
   "author": "Emmanuel Velazquez Lopez",
   "license": "ISC",
   "scripts": {
+    "build": "tsc --build ./tsconfig.json",
+    "clean": "rm ./dist/*/*.*s ./dist/*.*s"
   },
   "homepage": "https://github.com/emmveqz/utils#readme",
   "repository": {
@@ -16,8 +19,11 @@
     "url": "https://github.com/emmveqz/utils/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/emmveqz"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
+  "bundleDependencies": [
+  ],
   "devDependencies": {
     "typescript": "^4.9.5"
   }
