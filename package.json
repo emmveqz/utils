@@ -8,6 +8,7 @@
   "license": "ISC",
   "scripts": {
     "build": "tsc --build ./tsconfig.json",
+    "prepack": "npm run clean && npm run build",
     "clean": "rm ./dist/*/*.*s ./dist/*.*s"
   },
   "homepage": "https://github.com/emmveqz/utils#readme",
